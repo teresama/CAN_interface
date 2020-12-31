@@ -13,16 +13,16 @@ Upon successful installation of virtual CAN network by running
 
 The output should show the vcan interface up as seen here:
 
-<img src="https://github.com/teresama/indoor_loc/blob/master/images/explanation_vcan.png?raw=true" width="280">
+<img src="https://github.com/teresama/CAN_interface/blob/master/images/explanation_vcan.png?raw=true" width="280">
 
 
 Once the interface is up, it is time to compile the C++ app.
 To do so follow the commands:
 
-`mkdir build`
-`cd build`
-`cmake ..`
-`make`
+`mkdir build`  
+`cd build`  
+`cmake ..`  
+`make`  
 
 Once the build is complete, it can be run for example the read_write.cpp app:
 
@@ -30,7 +30,7 @@ Once the build is complete, it can be run for example the read_write.cpp app:
 
 Leading to the following output:
 
-<img src="https://github.com/teresama/indoor_loc/blob/master/images/showcast.png?raw=true" width="280">
+<img src="https://github.com/teresama/CAN_interface/blob/master/images/showcast.png?raw=true" width="280">
 
 More socket CAN reference pointers:
 [How_to_configure_and_use_CAN_bus](https://developer.ridgerun.com/wiki/index.php/How_to_configure_and_use_CAN_bus)
